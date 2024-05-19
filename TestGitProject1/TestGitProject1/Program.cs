@@ -10,7 +10,7 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
 }
-
+//FirstEdit
 app.UseStaticFiles();
 
 app.UseRouting();
@@ -19,4 +19,4 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 
-app.Run();
+app.Run(); 

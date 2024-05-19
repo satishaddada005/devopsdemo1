@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TestGitProject1.props" />
+</Project>

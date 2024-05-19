@@ -26,7 +26,7 @@ jobs:
       working-directory: ${{vars.WORKINGDIRECTORY}}
     - name: Build
       run: dotnet build --no-restore
-      working-directory: TestGitProject1
+      working-directory: ${{vars.WORKINGDIRECTORY}}
     - name: Test
       run: dotnet test --no-build --verbosity normal
-      working-directory: TestGitProject1
+      working-directory: ${{vars.WORKINGDIRECTORY}}
